@@ -1,0 +1,14 @@
+{
+  "name": "library_department",
+  "version": "1.0.0",
+  "description": "librabry management system",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "cd Visualization && yarn dev",
+    "build": "cd Visualization && yarn build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

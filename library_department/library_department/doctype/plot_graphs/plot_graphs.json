@@ -1,0 +1,97 @@
+{
+ "_liked_by": "[\"Administrator\"]",
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "Graph.####",
+ "creation": "2023-12-28 15:01:53.162191",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "document",
+  "x_axis",
+  "y_axis",
+  "graph_type",
+  "enable_graph_button",
+  "column_break_bpm3u",
+  "second_document",
+  "x_axis_second",
+  "y_axis_second"
+ ],
+ "fields": [
+  {
+   "fieldname": "document",
+   "fieldtype": "Link",
+   "label": "Document",
+   "options": "DocType"
+  },
+  {
+   "fieldname": "x_axis",
+   "fieldtype": "Select",
+   "label": "X axis"
+  },
+  {
+   "fieldname": "y_axis",
+   "fieldtype": "Select",
+   "label": "Y axis"
+  },
+  {
+   "fieldname": "graph_type",
+   "fieldtype": "Select",
+   "label": "Graph Type",
+   "options": "scatter plots\nline plots\nbar plots\narea plots"
+  },
+  {
+   "fieldname": "enable_graph_button",
+   "fieldtype": "Button",
+   "label": "Enable Graph button"
+  },
+  {
+   "fieldname": "column_break_bpm3u",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "second_document",
+   "fieldtype": "Link",
+   "label": "Second Document",
+   "options": "DocType"
+  },
+  {
+   "fieldname": "x_axis_second",
+   "fieldtype": "Select",
+   "label": "X axis second"
+  },
+  {
+   "fieldname": "y_axis_second",
+   "fieldtype": "Select",
+   "label": "y axis second"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-01-03 16:58:27.786196",
+ "modified_by": "Administrator",
+ "module": "Library Department",
+ "name": "Plot Graphs",
+ "naming_rule": "Expression (old style)",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "track_changes": 1
+}

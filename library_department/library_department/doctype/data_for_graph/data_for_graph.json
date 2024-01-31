@@ -1,0 +1,100 @@
+{
+ "_liked_by": "[\"Administrator\"]",
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "CAR.##",
+ "creation": "2024-01-02 10:05:03.342809",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "car_name",
+  "year",
+  "selling_price",
+  "present_price",
+  "kms_driven",
+  "fuel_type",
+  "seller_type",
+  "transmission",
+  "owners"
+ ],
+ "fields": [
+  {
+   "fieldname": "car_name",
+   "fieldtype": "Data",
+   "label": "Car Name"
+  },
+  {
+   "fieldname": "year",
+   "fieldtype": "Int",
+   "label": "Year"
+  },
+  {
+   "fieldname": "selling_price",
+   "fieldtype": "Currency",
+   "label": "Selling Price"
+  },
+  {
+   "fieldname": "present_price",
+   "fieldtype": "Currency",
+   "label": "Present Price"
+  },
+  {
+   "fieldname": "kms_driven",
+   "fieldtype": "Float",
+   "label": "Kms Driven"
+  },
+  {
+   "fieldname": "fuel_type",
+   "fieldtype": "Select",
+   "label": "Fuel Type",
+   "options": "Petrol\nDiesel\nCNG"
+  },
+  {
+   "fieldname": "seller_type",
+   "fieldtype": "Select",
+   "label": "Seller Type",
+   "options": "Dealer\nIndivisual"
+  },
+  {
+   "fieldname": "transmission",
+   "fieldtype": "Select",
+   "label": "Transmission",
+   "options": "Manual\nAutomatic"
+  },
+  {
+   "fieldname": "owners",
+   "fieldtype": "Select",
+   "label": "Owners",
+   "options": "Single\nSecond\nThird\nFourth\nFifth"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-01-02 10:25:07.265184",
+ "modified_by": "Administrator",
+ "module": "Library Department",
+ "name": "Data for graph",
+ "naming_rule": "Expression (old style)",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "quick_entry": 1,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "track_changes": 1
+}
